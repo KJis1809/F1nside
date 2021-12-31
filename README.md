@@ -37,12 +37,12 @@
 
 ## Full article view
 
-![Main page](./utils/show.png)
+![Show article page](./utils/show.PNG)
 
 ## Editing article form
 
-![Main page](./utils/edit.png)
+![Edit article page](./utils/edit.PNG)
 
 ## Create article form
 
-![Main page](./utils/create.png)
+![Create article page](./utils/create.PNG)
