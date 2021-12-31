@@ -1,0 +1,21 @@
+{{ define "warning" }}
+
+{{ template "header" }}
+
+<main role="main" class="inner cover">
+    <p class="lead">
+        <div class="alert alert-warning">
+            <h1>Warning!</h1>
+            <p>All fields must be filled in!</p>
+            <a href="/create" class="btn btn-primary">
+                <font style="font-family: Cascadia Code">
+                    Try again
+                </font>
+            </a>
+        </div>
+    </p>
+</main>
+
+{{ template "footer" }}
+
+{{ end }}

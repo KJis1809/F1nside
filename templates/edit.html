@@ -1,0 +1,21 @@
+{{ define "edit" }}
+
+{{ template "header" }}
+
+<main role="main" class="inner cover">
+    <h1 class="cover-heading">Editing Article Form</h1><br>
+    <form action="/update/{{ .Id }}" method="post">
+        <textarea name="title" id="title" class="form-control" placeholder="Enter name of the article">{{ .Title }}</textarea><br>
+        <textarea name="anons" id="anons" class="form-control" placeholder="Enter anons of the article">{{ .Anons }}</textarea><br>
+        <textarea name="article_text" id="article_text" class="form-control" placeholder="Write article">{{ .ArticleText }}</textarea><br>
+        <button class="btn btn-warning">
+            <font style="font-family: Cascadia Code">
+                &nbsp;&nbsp;&nbsp;&nbsp;Save&nbsp;&nbsp;&nbsp;&nbsp;
+            </font>
+        </button>
+    </form>
+</main>
+
+{{ template "footer" }}
+
+{{ end }}
