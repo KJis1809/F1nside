@@ -18,9 +18,7 @@
 );
 ```
 3. Set connection parameters for your database in main.go
-U can find this settings in function connectToDb() ;)
-
-![screen-gif](./utils/connectToDatabase.gif)
+   You can find this settings in function connectToDb() ;)
 
 4. Open your nginx.conf and add this inside http -> server -> location / brackets
 ```
