@@ -18,6 +18,7 @@
 );
 ```
 3. Set connection parameters for your database in main.go
+U can find this settings in function connectToDb() ;)
 
 ![screen-gif](./utils/connectToDatabase.gif)
 
