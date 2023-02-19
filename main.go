@@ -196,9 +196,9 @@ func getAllArticles() {
  * Укажите свои параметры для подключения
  */
 func connectToDb() *sql.DB {
-	const username = "root"
-	const password = "Nissan350z!"
-	const database = "f1nside"
+	const username = "{$USERNAME}"
+	const password = "{$PASSWORD}"
+	const database = "{$DATABASE}"
 
 	connection := fmt.Sprintf("%s:%s@tcp(127.0.0.1:3306)/%s", username, password, database)
 	db, err := sql.Open("mysql", connection)
